@@ -1,0 +1,73 @@
+baseURL = "https://deluan.com"
+languageCode = "en-us"
+title = "Deluan Cotts Quintão"
+theme = "hugo-identity"
+
+# googleAnalytics = "UA-XXXXX-Y"
+
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+
+[params]
+
+  favicon_ico = "favicon.ico"
+  # favicon_ico_sizes = "16x16 32x32"
+  appleicon = "apple-icon-precomposed.png"
+  favicon_png = "favicon-96x96.png"
+  # favicon_png_sizes = "96x96"
+
+  [params.personal]
+    name = "Deluan Quintão"
+    avatar = "deluan-manga.png"
+    position = "Software Developer"
+    livesIn = "Toronto, Canada"
+    scope = [
+        "Lead Consultant at [ThoughtWorks](//www.thoughtworks.com)",
+      ]
+    biography = """I hope you live a life you're proud of. 
+      If you find that you're not, I hope you have the strength to start all over again."""
+
+
+  [[params.social]]
+    title = "LinkedIn"
+    icon = "fa-linkedin"
+    link = "//www.linkedin.com/in/deluan/"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Github"
+    icon = "fa-github"
+    link = "//www.github.com/deluan/"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Blog"
+    icon = "fa-rss"
+    link = "//techbeats.deluan.com"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "//twitter.com/deluan"
+    target = "_blank"
+
+  # [[params.social]]
+  #   title = "StackOverflow"
+  #   icon = "fa-stack-overflow"
+  #   link = "//stackoverflow.com/users/653632/deluan"
+  #   target = "_blank"
+
+  # Footer settings
+  [params.footer]
+    copyright = "Deluan"
+
+  # Page license
+  [params.license]
+    link = "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    name = "CC-BY-SA-4.0"
+
+  # Credits
+  [[params.credits]]
+    title = "HTML5UP"
+    text = "Design by"
+    link = "https://html5up.net"
