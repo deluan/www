@@ -1,0 +1,12 @@
+{{ if .Site.Params.favicon_ico }}
+<link rel="icon" href="{{ .Site.Params.favicon_ico | printf "/images/icons/%s" | relURL  }}" type="image/x-icon" {{ if .Site.Params.favicon_ico_sizes }}sizes="{{ .Site.Params.favicon_ico_sizes  }}"{{ end }} />
+{{ end }}
+{{ if .Site.Params.favicon_png }}
+<link rel="icon" href="{{ .Site.Params.favicon_png | printf "/images/icons/%s" | relURL  }}" type="image/png" {{ if .Site.Params.favicon_png_sizes }}sizes="{{ .Site.Params.favicon_png_sizes  }}"{{ end }} />
+{{ end }}
+{{ if .Site.Params.favicon_svg }}
+<link rel="icon" href="{{ .Site.Params.favicon_svg | printf "/images/icons/%s" | relURL  }}" type="image/svg+xml" sizes="any" />
+{{ end }}
+{{ if .Site.Params.appleicon }}
+<link rel="apple-touch-icon-precomposed" href="{{ .Site.Params.appleicon | printf "/images/icons/%s" | relURL  }}" />
+{{ end }}
