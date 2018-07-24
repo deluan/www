@@ -48,7 +48,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 
     # postURL = "https://example.com/mailout/"
 
-    enable = true
+    enable = false
     title = "Get In Touch!"
     namePlaceholder = "Name"
     emailPlaceholder = "Email"
@@ -79,6 +79,12 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     title = "Twitter"
     icon = "fa-twitter"
     link = "//twitter.com/deluan"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Email"
+    icon = "fa-at"
+    link = "mailto:site@deluan"
     target = "_blank"
 
   # [[params.social]]
