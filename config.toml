@@ -21,7 +21,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     position = "Software Developer"
     livesIn = "Toronto, Canada"
     scope = [
-        "Lead Consultant at [ThoughtWorks](//www.thoughtworks.com)",
+        "Principal Engineer at [ThoughtWorks](//www.thoughtworks.com)",
       ]
     biography = """I hope you live a life you're proud of. 
       If you find that you're not, I hope you have the strength to start all over again."""
