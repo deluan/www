@@ -84,7 +84,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   [[params.social]]
     title = "Email"
     icon = "fa-at"
-    link = "mailto:site@deluan"
+    link = "mailto:site@deluan.com"
     target = "_blank"
 
   # [[params.social]]
