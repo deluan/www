@@ -87,6 +87,12 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     link = "mailto:site@deluan.com"
     target = "_blank"
 
+  [[params.social]]
+    title = "Donate"
+    icon = "fa-coffee"
+    link = "https://ko-fi.com/deluan"
+    target = "_blank"
+
   # [[params.social]]
   #   title = "StackOverflow"
   #   icon = "fa-stack-overflow"
